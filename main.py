@@ -8,7 +8,7 @@ import traceback
 # coding="UTF-8"
 import sys
 
-sid = '1201159496520171573'
+sid = yourSid
 to = number
 apiKey = yourApiKey
 senderID = senderID  # SITARE
