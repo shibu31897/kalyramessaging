@@ -9,16 +9,10 @@ import traceback
 import sys
 
 sid = '1201159496520171573'
-to = '+918085903247'
-apiKey = 'A3518d1d4e87babd61c8b700000edb743'
-senderID = "1201159496520171573"  # SITARE
-studentName = "Sarjeet Yadav"
-# The Template ID that is registered with DLT Platform (in our case it's english now)
-entity_id = ""  # The Entity ID that is registered with DLT Platform
-# messageBodyEnglish = f"Dear candidate {var}, You have been successfully registered for the Hope Scholarship Exam 2022.WhatsApp/SMS/Call at 7849913022 in case of any query. -Sitare Foundation (Hope & Dreams Trust)"
+to = number
+apiKey = yourApiKey
+senderID = senderID  # SITARE
 
-mobileNumber = "9555903247"
-# url2 = f"https://api-alerts.kaleyra.com/v4/?api_key={apiKey}&method=sms&message={messageBodyHindi}&template_id={template_id_Hindi}&to={mobileNumber}&sender=Sitare"
 url = f'https://api.in.kaleyra.io/v1/{sid}/messages'
 successCount = 0
 failedCount = 0
